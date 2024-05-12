@@ -72,7 +72,7 @@ def check_selection(input_str):
         
 db = mysql.connector.connect(
   host="localhost",
-  user="admin",
+  user="root",
   password="1234",
   database="mydatabase"
 )
